@@ -45,6 +45,7 @@ gem "bootsnap", require: false
 group :development, :test do
   gem 'brakeman'
   gem 'bundler-audit'
+  gem 'bundler-integrity'
 end
 
 group :development do
