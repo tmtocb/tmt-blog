@@ -53,3 +53,6 @@ group :development do
   # gem "rack-mini-profiler"
 end
 
+group :test do
+  gem 'rspec-rails'
+end
